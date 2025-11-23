@@ -1,19 +1,48 @@
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
+## Sistema Operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+.directory
 
-# CLion
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#cmake-build-*
+## Archivos del organizador
+organizador_log_*.txt
+organizador_backup.txt
+organizador_config.txt
+
+## IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+## Carpetas generadas por el script
+pdf/
+jpg/
+png/
+mp3/
+mp4/
+zip/
+exe/
+doc/
+docx/
+txt/
+xls/
+xlsx/
+
+## Archivos temporales
+*.tmp
+*.temp
+.temp/
+
+## Compilados
+*.o
+*.a
+*.so
+*.out
+
+## Otros
+.env
+.env.local
